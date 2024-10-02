@@ -1,0 +1,19 @@
+/*test('clears input and result on "Очистить" button click', () => {
+    render(<Fibonacci />);
+
+    const inputElement = screen.getByLabelText(/Введите порядковый номер/i);
+    const clearButton = screen.getByText(/Очистить/i);
+
+    // Вводим число
+    fireEvent.change(inputElement, { target: { value: '10' } });
+
+    // Нажимаем на "Очистить"
+    fireEvent.click(clearButton);
+
+    expect(inputElement).toHaveValue(''); // Поле ввода должно быть пустым
+    const resultElement = screen.getByText(/Результат:/i);
+    expect(resultElement).toHaveTextContent('Результат:'); // Результат должен быть очищен
+  });*/
+
+
+  for run npm test -- src/tasks/Card/Card.test.jsx
